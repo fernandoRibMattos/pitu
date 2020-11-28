@@ -7,8 +7,8 @@ function Header(props) {
     return (
         <>
             <HeaderContainer>
-                <Logo src={Icone} alt='Pitu - Encurtador de URL' />
-                <h1>Pitu</h1>
+                <Logo src={Icone} alt='url Slim - Encurtador de URL' />
+                <h1>url Slim</h1>
                 <p>{props.children}</p>
             </HeaderContainer>
         </>

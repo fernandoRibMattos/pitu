@@ -23,6 +23,7 @@ class RedirectPage extends React.Component {
         try {
             const service = new ShortenerService();
             const { url } = await service.getLink(code);
+            console.log(url);
 
             window.location = url;
         } catch (error) {
